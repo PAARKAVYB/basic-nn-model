@@ -2,7 +2,7 @@
 ## AIM:
 To develop a neural network regression model for the given dataset.
 ## THEORY:
-A neural network with multiple hidden layers and multiple nodes in each hidden layer is known as a deep learning system or a deep neural network. Here the basic neural network model has been created with one input layer, one hidden layer and one output layer.The number of neurons(UNITS) in each layer varies the 1st input layer has 16 units and hidden layer has 8 units and output layer has one unit.
+A neural network with multiple hidden layers and multiple nodes in each hidden layer is known as a deep learning system or a deep neural network. Here the basic neural network model has been created with one input layer, one hidden layer and one output layer.The number of neurons (UNITS) in each layer varies the 1st input layer has 16 units and hidden layer has 8 units and output layer has one unit.
 
 In this basic NN Model, we have used "relu" activation function in input and hidden layer, relu(RECTIFIED LINEAR UNIT) Activation function is a piece-wise linear function that will output the input directly if it is positive and zero if it is negative.
 ## NEURAL NETWORK MODEL:
@@ -14,7 +14,7 @@ Loading the dataset.
 ### STEP 2:
 Split the dataset into training and testing.
 ### STEP 3:
-Create MinMaxScalar objects ,fit the model and transform the data.
+Create MinMaxScalar objects,fit the model and transform the data.
 ### STEP 4:
 Build the Neural Network Model and compile the model.
 ### STEP 5:
@@ -117,4 +117,4 @@ ai_brain.predict(x_n1_1)
 ![output](op4.png)
 
 ## RESULT:
-Therefore, We successfully developed a neural network regression model for the given dataset.
+Therefore, we successfully developed a neural network regression model for the given dataset.
